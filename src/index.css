@@ -115,6 +115,24 @@ html {
   transition: background-color 1s, color 1s;
 }
 
+/* OFFER ONLINE SECTION */
+.package-name {
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  width: 960px;
+  /* align-items: center; */
+  /* grid-template-rows: 50% 50%; */
+  grid-template-columns: auto auto;
+  grid-gap: 1%;
+  place-content: center;
+  /* grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto); */
+}
+
 /* FOOTER SECTION */
 
 .footer {
@@ -160,6 +178,10 @@ html {
   margin-top: 0;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px; */
+}
+
+.offer-mini {
+  text-align: center;
 }
 
 .price {
