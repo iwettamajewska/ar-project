@@ -16,12 +16,12 @@ function App() {
     <>
       <Navigation />
       <Header />
+      <AboutMe />
+      <Certificates />
       <OfferOnline />
       <OfferStationary />
       <OfferMini />
-      <AboutMe />
       <Contact />
-      <Certificates />
       <Opinion />
       <Footer />
     </>

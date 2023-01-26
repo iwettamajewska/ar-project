@@ -3,7 +3,7 @@ const OfferStationary = () => {
     <>
       <h1 className="package-name">Pakiety stacjonartne</h1>
       <div className="wrapper container">
-        <div class="pricing qt3 first pricing-column">
+        <div className="pricing qt3 first pricing-column">
           <h2>Pakiet I</h2>
           <ul>
             <li>Konsultacja z dietetykiem 1 h</li>
@@ -18,7 +18,7 @@ const OfferStationary = () => {
             <h5>300 zł</h5>2 konsultacje + jadłospis 7 dniowy, wysłany na maila
           </div>
         </div>
-        <div class="pricing qt3 first pricing-column">
+        <div className="pricing qt3 first pricing-column">
           <h2>Pakiet II</h2>
           <ul>
             <li>Konsultacja z dietetykiem 1 h</li>
@@ -36,7 +36,7 @@ const OfferStationary = () => {
             <p>3 konsultacje + jadłospis 14dniowy, wysłany na maila</p>
           </div>
         </div>
-        <div class="pricing qt3 first pricing-column">
+        <div className="pricing qt3 first pricing-column">
           <h2>Pakiet III dla par</h2>
           <ul>
             <li>Konsultacja z dietetykiem dla dwóch osób 1 h - 1,5 h</li>
@@ -55,7 +55,7 @@ const OfferStationary = () => {
             <p>2 konsultacje + jadłospis 7 dniowy, wysłany na maila</p>
           </div>
         </div>
-        <div class="pricing qt3 first pricing-column">
+        <div className="pricing qt3 first pricing-column">
           <h2>Pakiet IV dla par</h2>
           <ul>
             <li>Konsultacja z dietetykiem dla dwóch osób 1 h - 1,5 h</li>
