@@ -16,9 +16,11 @@ const Contact = () => {
         <p className="contact-center address">
           ul. Owocowa 16, 17-200 Hajnówka
         </p>
-        <p>Konsultacje odbywają się po wcześniejszym umówieniu się na wizytę</p>
+        <p className="consultation-information">
+          Konsultacje odbywają się po wcześniejszym umówieniu się na wizytę
+        </p>
       </div>
-      <img src="../images/"></img>
+      <img alt="logo" src="../images/"></img>
     </div>
   );
 };

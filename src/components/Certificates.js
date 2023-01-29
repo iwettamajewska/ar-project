@@ -7,13 +7,15 @@ const Certificates = () => {
     <section className="certificates">
       <div className="container">
         <p>Here will be certificates</p>
-        <img
-          src={imagesCertificates}
-          alt={"certificate"}
-          // alt={item.class}
-          // className={`${item.class}`}
-          // key={index}
-        />
+        <div className="box-certificate">
+          <img
+            src={imagesCertificates}
+            alt={"certificate"}
+            // alt={item.class}
+            // className={`${item.class}`}
+            // key={index}
+          />
+        </div>
       </div>
     </section>
   );

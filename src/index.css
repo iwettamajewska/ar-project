@@ -120,6 +120,27 @@ html {
   text-align: center;
 }
 
+.package-name {
+  padding: 1rem 0rem;
+}
+
+.offer-details {
+  list-style-type: none;
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.offer-details:nth-of-type(even) {
+  background-color: #c0502e2c;
+}
+
+.offer-details:nth-of-type(odd) {
+  background-color: #c0502e11;
+}
+
+.offer-details-short {
+  text-decoration: underline;
+  padding-bottom: 1rem;
+}
 .wrapper {
   display: grid;
   width: 960px;
@@ -131,6 +152,23 @@ html {
   /* grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto); */
+}
+
+.offer-mini-list {
+  padding-bottom: 1rem;
+}
+
+.offer-mini-name {
+  font-size: larger;
+}
+
+.offer-mini-list-description {
+  font-weight: 700;
+}
+
+/* CONTACT */
+.consultation-information {
+  font-weight: 700;
 }
 
 /* FOOTER SECTION */
@@ -190,7 +228,7 @@ html {
 }
 
 .price {
-  background-color: #c0502e;
+  font-weight: 700;
 }
 
 .pricing-column {

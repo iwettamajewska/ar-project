@@ -4,44 +4,46 @@ const OfferOnline = () => {
       <h1 className="package-name">Pakiety online</h1>
       <div className="wrapper container">
         <div className="pricing qt3 first pricing-column">
-          <h2>Pakiet I</h2>
+          <h2 className="package-name">Pakiet I</h2>
           <ul>
-            <li>Konsultacja z dietetykiem 1 h</li>
-            <li>wywiad żywieniowy i zdrowotny</li>
-            <li>ocenę sposobu odżywiania</li>
-            <li>konsultacja telefoniczna lub przez internet</li>
-            <li>
+            <li className="offer-details">Konsultacja z dietetykiem 1 h</li>
+            <li className="offer-details">Wywiad żywieniowy i zdrowotny</li>
+            <li className="offer-details">Ocena sposobu odżywiania</li>
+            <li className="offer-details">
+              Konsultacja telefoniczna lub przez internet
+            </li>
+            <li className="offer-details">
               Dietetyk odpowie Ci na nurtujące pytania na temat odżywiania
             </li>
-            <li>Konsultacja kontrolna</li>
+            <li className="offer-details">Konsultacja kontrolna</li>
+            <li className="price offer-details">280 zł</li>
+            <li className="offer-details">
+              <p className="offer-details-short">Skrócony opis:</p>2 konsultacje
+              + jadłospis 7 dniowy, wysłany na maila. Konsultacje odbywają się
+              telefonicznie lub poprzez internet.
+            </li>
           </ul>
-          <div className="data-price">
-            <h5>280 zł</h5>
-            <p>
-              2 konsultacje + jadłospis 7 dniowy, wysłany na maila. Konsultacje
-              odbywają się telefonicznie lub poprzez internet.
-            </p>
-          </div>
         </div>
         <div className="pricing qt3 first pricing-column">
-          <h2>Pakiet II</h2>
+          <h2 className="package-name">Pakiet II</h2>
           <ul>
-            <li>Konsultacja z dietetykiem 1 h</li>
-            <li>wywiad żywieniowy i zdrowotny</li>
-            <li>ocenę sposobu odżywiania</li>
-            <li>konsultacja telefoniczna lub przez internet</li>
-            <li>
+            <li className="offer-details">Konsultacja z dietetykiem 1 h</li>
+            <li className="offer-details">Wywiad żywieniowy i zdrowotny</li>
+            <li className="offer-details">Ocena sposobu odżywiania</li>
+            <li className="offer-details">
+              Konsultacja telefoniczna lub przez internet
+            </li>
+            <li className="offer-details">
               Dietetyk odpowie Ci na nurtujące pytania na temat odżywiania
             </li>
-            <li>Konsultacja kontrolna</li>
-          </ul>
-          <div className="data-price">
-            <h5>350 zł</h5>
-            <p>
-              3 konsultacje + jadłospis 14dniowy, wysłany na maila. Konsultacje
+            <li className="offer-details">Konsultacja kontrolna</li>
+            <li className="price offer-details">350 zł</li>
+            <li className="offer-details">
+              <p className="offer-details-short">Skrócony opis:</p> 3
+              konsultacje + jadłospis 14dniowy, wysłany na maila. Konsultacje
               odbywają się telefonicznie lub poprzez internet.
-            </p>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </>
