@@ -12,5 +12,4 @@ export const imagesCertificates = {
   certyficate5: require("./certificates/certificate5.jpg"),
   certyficate6: require("./certificates/certificate6.jpg"),
   certyficate7: require("./certificates/certificate7.jpg"),
-  certyficate8: require("./certificates/certificate8.jpg"),
 };
