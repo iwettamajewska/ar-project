@@ -9,7 +9,7 @@ const Certificates = () => {
         <p>Here will be certificates</p>
         <div className="box-certificate">
           <img
-            className="certificate-image"
+            className="certificate-image1 certificate-image certificate-vertical"
             src={imagesCertificates.certyficatel}
             alt={"certificate"}
             // alt={item.class}
@@ -17,7 +17,7 @@ const Certificates = () => {
             // key={index}
           />
           <img
-            className="certificate-image"
+            className="certificate-image2 certificate-image certificate-vertical"
             src={imagesCertificates.certyficate2}
             alt={"certificate"}
             // alt={item.class}
@@ -25,7 +25,7 @@ const Certificates = () => {
             // key={index}
           />
           <img
-            className="certificate-image"
+            className="certificate-image3 certificate-image certificate-vertical"
             src={imagesCertificates.certyficate3}
             alt={"certificate"}
             // alt={item.class}
@@ -33,7 +33,7 @@ const Certificates = () => {
             // key={index}
           />
           <img
-            className="certificate-image"
+            className="certificate-image4 certificate-image certificate-vertical"
             src={imagesCertificates.certyficate4}
             alt={"certificate"}
             // alt={item.class}
@@ -41,7 +41,7 @@ const Certificates = () => {
             // key={index}
           />
           <img
-            className="certificate-image"
+            className="certificate-image5 certificate-image"
             src={imagesCertificates.certyficate5}
             alt={"certificate"}
             // alt={item.class}
@@ -49,7 +49,7 @@ const Certificates = () => {
             // key={index}
           />
           <img
-            className="certificate-image"
+            className="certificate-image6 certificate-image"
             src={imagesCertificates.certyficate6}
             alt={"certificate"}
             // alt={item.class}
@@ -57,7 +57,7 @@ const Certificates = () => {
             // key={index}
           />
           <img
-            className="certificate-image"
+            className="certificate-image7 certificate-image"
             src={imagesCertificates.certyficate7}
             alt={"certificate"}
             // alt={item.class}

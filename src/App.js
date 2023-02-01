@@ -10,6 +10,7 @@ import OfferOnline from "./components/OfferOnline";
 import OfferMini from "./components/OfferMini";
 import Certificates from "./components/Certificates";
 import OfferStationary from "./components/OfferStationary";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <OfferMini />
       <Contact />
       <Opinion />
+      <Slider />
       <Footer />
     </>
   );

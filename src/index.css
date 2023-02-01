@@ -209,14 +209,21 @@ html {
 }
 
 .certificate-image {
-  height: 20rem;
-  width: auto;
+  height: 19rem;
+  width: 25rem;
+}
+
+.certificate-vertical {
+  height: 30rem;
+  width: 25rem;
 }
 
 .box-certificate {
   display: grid;
-  grid-template-columns: 11rem 11rem 11rem;
-  grid-gap: 40px;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem;
+  /* column-gap: 2rem; */
+  place-content: center;
 }
 
 /* OFFER */
@@ -318,9 +325,21 @@ html {
 
 /* OPINION */
 
-.opinion-center {
-  text-align: center;
-  padding: 1rem;
+.opinion-box {
+  max-width: 25rem;
+  border: 0.17rem solid #e96214;
+  background-color: #ebebeb;
+}
+
+/* .opinion-description {
+  background-color: #000000;
+} */
+
+.opinion-container {
+  font-size: 0.9rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 40px;
 }
 
 @media screen and (min-width: 769px) {
