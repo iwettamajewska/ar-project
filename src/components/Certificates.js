@@ -64,6 +64,38 @@ const Certificates = () => {
             // className={`${item.class}`}
             // key={index}
           />
+          <img
+            className="certificate-image8 certificate-image"
+            src={imagesCertificates.certyficate8}
+            alt={"certificate"}
+            // alt={item.class}
+            // className={`${item.class}`}
+            // key={index}
+          />
+          <img
+            className="certificate-image9 certificate-image"
+            src={imagesCertificates.certyficate9}
+            alt={"certificate"}
+            // alt={item.class}
+            // className={`${item.class}`}
+            // key={index}
+          />
+          <img
+            className="certificate-image10 certificate-image"
+            src={imagesCertificates.certyficate10}
+            alt={"certificate"}
+            // alt={item.class}
+            // className={`${item.class}`}
+            // key={index}
+          />
+          <img
+            className="certificate-image11 certificate-image"
+            src={imagesCertificates.certyficate11}
+            alt={"certificate"}
+            // alt={item.class}
+            // className={`${item.class}`}
+            // key={index}
+          />
         </div>
       </div>
     </section>
